@@ -1,0 +1,54 @@
+#timer {
+    position: relative; /* or absolute/fixed if needed */
+    z-index: 9999;
+    font-family: var(--roboto, Arial, sans-serif);
+    font-size: 1.5vw; /* Responsive font-size */
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(135deg, #b30000, #8b0000); /* Dark red gradient */    color: #fff;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+   margin-top: 50px;
+   display: block;
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.timer-label {
+    font-family: 'Dancing Script', cursive; /* Fancy font for a romantic feel */
+    font-size: 1.5vw;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    font-weight: bold;
+}
+#timer span {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 200px) {
+    #timer {
+        margin-top: 15px;
+        padding: 10px 15px;
+      }
+      .timer-label {
+        font-size: 1.2rem;
+      }
+      .timer-values {
+        flex-direction: column; /* Stack vertically on very small screens */
+        gap: 8px;
+      }
+      .timer-values span {
+        font-size: 0.95rem;
+      }
+    }
