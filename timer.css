@@ -1,7 +1,7 @@
 #timer {
     position: relative; /* or absolute/fixed if needed */
     z-index: 9999;
-    font-family: var(--roboto, Arial, sans-serif);
+    font-family: var(--roboto, Arial);
     font-size: 1.5vw; /* Responsive font-size */
     font-weight: bold;
     text-align: center;
