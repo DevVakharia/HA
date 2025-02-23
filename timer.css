@@ -21,7 +21,7 @@
    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 .timer-label {
-    font-family: var(--roboto), Arial, sans-serif; /* Use the normal font */
+    font-family: "Apple Chancery", cursive	;
     font-size: 1.5vw;
     margin-bottom: 15px;
     opacity: 0.8;
