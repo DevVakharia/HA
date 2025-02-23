@@ -1,7 +1,7 @@
 #timer {
     position: relative; /* or absolute/fixed if needed */
     z-index: 9999;
-    font-family: var(--roboto, Arial);
+    font-family: var(--roboto, Arial, sans-serif);
     font-size: 1.5vw; /* Responsive font-size */
     font-weight: bold;
     text-align: center;
@@ -21,7 +21,7 @@
    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 .timer-label {
-    font-family: 'Dancing Script', cursive; /* Fancy font for a romantic feel */
+    font-family: var(--roboto), Arial, sans-serif; /* Use the normal font */
     font-size: 1.5vw;
     margin-bottom: 15px;
     opacity: 0.8;
