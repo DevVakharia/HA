@@ -26,6 +26,7 @@
     margin-bottom: 15px;
     opacity: 0.8;
     font-weight: bold;
+    color: #fff;
 }
 #timer span {
     background-color: rgba(0, 0, 0, 0.2);
@@ -38,8 +39,9 @@
 /* Responsive adjustments for smaller screens */
 @media (max-width: 400px) {
     #timer {
-        margin-top: 15px;
-        padding: 10px 15px;
+        margin-top: 50px;
+        padding: 10px 10px;
+
       }
       .timer-label {
         font-size: 1.5rem;
@@ -49,6 +51,6 @@
         gap: 8px;
       }
       .timer-values span {
-        font-size: 0.95rem;
+        font-size: 0.7rem;
       }
     }
